@@ -13,8 +13,8 @@ sign.onclick = function (){
     let request=net.request({
 		method: 'POST',
 		protocol: 'http:',
-		hostname: '127.0.0.1',
-		port: 8996,
+		hostname: '389f80y058.zicp.vip',
+		port: 80,
 		path: '/login/adminLogin',
 		headers: {
 			'Content-Type': 'application/json'

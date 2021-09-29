@@ -1,11 +1,10 @@
 var { app,BrowserWindow,ipcMain,Menu,MenuItem }= require('electron')
-require('electron-squirrel-startup')
 // const path = require('path')
 // const {robot} = require('robotjs') 
 app.allowRendererProcessReuse = false;
-if (require('electron-squirrel-startup')) { 
-  app.quit();
-}
+// if (require('electron-squirrel-startup')) { 
+//   app.quit();
+// }
 
 var mainWindow = null
 app.on('ready', () => {
