@@ -1,0 +1,162 @@
+body{
+  left: 0px;
+  top: 0px;
+  width: 1440px;
+  height: 1024px;
+  background-color: rgba(255, 255, 255, 100); 
+}
+#sign  {
+  position:absolute;
+  left: 500px;
+  top: 276px;
+  width: 49px;
+  height: 36px;
+  color: rgba(16, 16, 16, 100);
+  font-size: 24px;
+  text-align: left;
+  font-family: SourceHanSansSC-bold;
+}
+#id{
+  position:absolute;
+  left: 500px;
+  top: 344px;
+  width: 440px;
+  height: 60px;
+  line-height: 20px;
+  border-radius: 30px;
+  text-align: left;
+  text-indent: 65px;
+  border: 1px solid rgba(211, 211, 211, 100);
+}
+#id_p{
+  position:absolute;
+  left: 530px;
+  top: 362px;
+  width: 24px;
+  height: 24px;
+}
+#password{
+  position:absolute;
+  left: 500px;
+  top: 444px;
+  width: 440px;
+  height: 60px;
+  line-height: 20px;
+  border-radius: 30px;
+  text-align: left;
+  text-indent: 65px;
+  border: 1px solid rgba(211, 211, 211, 100);
+}
+#password_p{
+  position:absolute;
+  left: 530px;
+  top: 462px;
+  width: 24px;
+  height: 24px;
+}
+/*滑动开关*/
+.testswitch {
+  position:absolute;
+  left: 500px;
+  top: 523px;
+  width: 44px;
+  height: 24px;
+  line-height: 20px;
+  border-radius: 30px;
+  border: 1px solid rgba(211, 211, 211, 100);
+  margin: 0;
+  /* -webkit-user-select:none; 
+  -moz-user-select:none; 
+  -ms-user-select: none; */
+}
+.testswitch-checkbox {
+  display: none;
+}
+.testswitch-label {
+  display: block; 
+  overflow: hidden; 
+  cursor: pointer;
+  border-radius: 20px;
+}
+.testswitch-switch {
+  position: absolute; 
+  display: block; 
+  width: 22px;
+  height: 22px;
+  margin-left: 2px;
+  margin-top: 1px;
+  background: rgba(58, 98, 215, 100);
+  border-radius: 20px;
+  transition: all 0.3s ease-in 0s;
+}
+.testswitch-checkbox:checked + .testswitch-label .testswitch-switch {
+  left: 18px; 
+}
+
+#remember_label{
+  position:absolute;
+  left: 564px;
+  top: 523px;
+  width: 64px;
+  height: 24px;
+  color: rgba(170, 170, 170, 100);
+  font-size: 16px;
+  text-align: left;
+  font-family: SourceHanSansSC-regular;
+}
+#find_label{
+  position:absolute;
+  left: 875px;
+  top: 523px;
+  width: 64px;
+  height: 24px;
+  color: rgba(170, 170, 170, 100);
+  font-size: 16px;
+  text-align: left;
+  font-family: SourceHanSansSC-regular;
+}
+#sign_button{
+  position:absolute;
+  left: 502px;
+  top: 566px;
+  width: 440px;
+  height: 60px;
+  line-height: 23px;
+  border-radius: 30px;
+  /* background-color: rgba(57, 82, 253, 100); */
+  background-color: rgb(224, 164, 34);
+  color: rgba(255, 255, 255, 100);
+  font-size: 16px;
+  text-align: center;
+  font-family: Roboto;
+  border: 1px solid rgba(255, 255, 255, 100);
+}
+#register_label{
+  position:absolute;
+  left: 502px;
+  top: 645px;
+  width: 64px;
+  height: 24px;
+  color: rgba(170, 170, 170, 100);
+  font-size: 16px;
+  text-align: left;
+  font-family: SourceHanSansSC-regular;
+}
+#wxsign_p{
+  position:absolute;
+  left: 851px;
+  top: 645px;
+  width: 24px;
+  height: 24px;
+}
+#wxsign_label{
+  position:absolute;
+  left: 876px;
+  top: 645px;
+  width: 64px;
+  height: 24px;
+  color: rgba(170, 170, 170, 100);
+  font-size: 16px;
+  text-align: left;
+  font-family: SourceHanSansSC-regular;
+}

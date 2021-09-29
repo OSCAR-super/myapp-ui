@@ -1,0 +1,128 @@
+body{
+    left: 0px;
+    top: 0px;
+    width: 1440px;
+    height: 1027px;
+    background-color: rgba(240, 242, 247, 100);
+}
+#signal{
+    position:relative;
+    display: block;
+    float: right;
+    width: 30px;
+    height: 24px;
+    color: #666666;
+    font-size: 20px;
+    text-align: right;
+    font-family: SourceHanSansSC-regular;
+}
+#topbar{
+    position:absolute;
+    top: 0px;
+    width: 1220px;
+    height: 70px;
+    line-height: 23px;
+    background-color: rgba(255, 255, 255, 100);
+    color: rgba(255, 255, 255, 100);
+    font-size: 16px;
+    text-align: center;
+    font-family: Roboto;
+    border: 1px solid rgba(255, 255, 255, 100);
+}
+.show {
+    display: block;
+}
+#icon{
+    position:absolute;
+    left: 30px;
+    top: 90px;
+    width: 18px;
+    height: 18px;
+}
+#checked_title{
+    position:absolute;
+    left: 60px;
+    top: 87px;
+    width: 100px;
+    height: 24px;
+    color: rgba(16, 16, 16, 100);
+    font-size: 16px;
+    text-align: left;
+    font-family: SourceHanSansSC-bold;
+}
+#data{
+    position:absolute;
+    background-color: white;
+    left: 30px;
+    top: 130px;
+    width: 1177px;
+    height: 100px;
+    line-height: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 100);
+}
+#data2{
+    position:absolute;
+    background-color: white;
+    left: 30px;
+    top: 260px;
+    width: 1177px;
+    height: 100px;
+    line-height: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 100);
+}
+.gest_n{
+    border-radius: 30px;
+    position:relative;
+    display: block;
+    float: left;
+    width: 100px;
+    line-height: 50px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 108px;
+    margin-top: 25px;
+    border: 1px solid rgba(0, 0, 0, 100);
+}
+.gest_m{
+    border-radius: 30px;
+    position:relative;
+    display: block;
+    float: left;
+    width: 100px;
+    line-height: 50px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 108px;
+    margin-top: 25px;
+    border: 1px solid rgba(0, 0, 0, 100);
+}
+#createMenu{
+    position:absolute;
+    right: 25px;
+    top: 23px;
+    height: 24px;
+}
+#menu_photo{
+    bottom: 5px;
+    position:relative;
+    display: block;
+    margin-right:10px;
+    float: right;
+    border-radius: 35px;
+}
+#menu_id{
+    position:relative;
+    display: block;
+    float: right;
+    height: 24px;
+    color: #666666;
+    font-size: 20px;
+    text-align: right;
+    font-family: SourceHanSansSC-regular;
+}
