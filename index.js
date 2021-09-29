@@ -12,6 +12,7 @@ app.on('ready', () => {
     width: 1440,
     height: 1027,
     webPreferences:{
+      devTools: false,
       nodeIntegration: true,
       contextIsolation: false,
             // just add this row
