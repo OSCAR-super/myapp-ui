@@ -2,6 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <title>博饼室</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <style type="text/css">
     .msg_board {
@@ -34,16 +35,14 @@
     }
     /*set srcoll end*/
 </style>
-<body>
-<input type="button" value="退出聊天室" onclick="closeWs()" /><br>
-<div class="msg_board"></div>
+<input type="button" id="sign_button" value="<退出博饼室" onclick="closeWs()" /><br>
+<div id="msg_boards" class="msg_board"></div>
 <input id="input_msg" size="43" maxlength="40" type="hidden">
-<input type="button"  value="开始游戏" onclick="initWebSocket()" />
-<input type="button" value="摇色子" onclick="send_msg()" />
+<input type="button" id="start" value="开始游戏" onclick="initWebSocket()" />
+<input type="button" id="cleck" value="摇色子" onclick="send_msg()" />
 </body>
 <script type="text/javascript">
     var webSocket;
- 
     function send_msg() {
         if (webSocket != null) {
             var input_msg = document.getElementById("input_msg").value.trim();
@@ -54,7 +53,7 @@
             // 清除input框里的信息
             document.getElementById("input_msg").value = "";
         } else {
-            alert("您已掉线，请重新进入聊天室...");
+            alert("您已掉线或未开启游戏，请进入游戏...");
         }
     };
  
@@ -110,4 +109,5 @@
         }
     }
 </script>
+<script src="index.js"></script>
 </html>

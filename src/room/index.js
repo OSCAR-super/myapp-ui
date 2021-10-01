@@ -1,14 +1,4 @@
 const {ipcRenderer}  = require('electron')
-// cate1.onclick = function (){
-//     ipcRenderer.send("changepage","to home_page");
-// }
-// cate2.onclick = function (){
-//     ipcRenderer.send("changepage","to gesture_check");
-// }
-// cate3.onclick = function (){
-//     ipcRenderer.send("changepage","to presentation");
-// }
-//生成小菜单
 var createMenu = document.getElementById('signal')
 createMenu.onclick=function (){
     ipcRenderer.send("createMenu");

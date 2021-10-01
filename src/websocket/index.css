@@ -1,0 +1,57 @@
+#sign_button{
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    width: 120px;
+    height: 40px;
+    line-height: 23px;
+    border-radius: 10px;
+    /* background-color: rgba(57, 82, 253, 100); */
+    background-color: rgb(224, 164, 34);
+    color: rgba(255, 255, 255, 100);
+    font-size: 16px;
+    text-align: center;
+    font-family: Roboto;
+    border: 1px solid rgba(255, 255, 255, 100);
+}
+#msg_boards{
+    position:absolute;
+    left: 50px;
+    top: 50px;
+    width: 1000px;
+    height: 600px;
+    line-height: 23px;
+    border-radius: 10px;
+}
+#start{
+    position:absolute;
+    left: 210px;
+    top: 680px;
+    width: 120px;
+    height: 40px;
+    line-height: 23px;
+    border-radius: 10px;
+    /* background-color: rgba(57, 82, 253, 100); */
+    background-color: rgb(224, 164, 34);
+    color: rgba(255, 255, 255, 100);
+    font-size: 16px;
+    text-align: center;
+    font-family: Roboto;
+    border: 1px solid rgba(255, 255, 255, 100);
+}
+#cleck{
+    position:absolute;
+    left: 340px;
+    top: 680px;
+    width: 120px;
+    height: 40px;
+    line-height: 23px;
+    border-radius: 10px;
+    /* background-color: rgba(57, 82, 253, 100); */
+    background-color: rgb(224, 164, 34);
+    color: rgba(255, 255, 255, 100);
+    font-size: 16px;
+    text-align: center;
+    font-family: Roboto;
+    border: 1px solid rgba(255, 255, 255, 100);
+}

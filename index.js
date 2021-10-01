@@ -61,11 +61,8 @@ ipcMain.on('changepage',(event,data) => {
     case "to sign":
       mainWindow.loadFile('src/sign/index.html');
       break; 
-       case "to sign":
-      mainWindow.loadFile('src/sign/index.html');
-      break; 
-      case "to websocket":
-        mainWindow.loadFile('src/websocket/websocket.html');
-      break; 
+    case "to websocket":
+      mainWindow.loadFile('src/websocket/websocket.html');
+    break; 
   }
 });
